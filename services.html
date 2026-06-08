@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sales Training Services – Marios Christodoulou</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+
+    body {
+      min-height: 100vh;
+      background: url('blurred-background.jpg') center center / cover no-repeat fixed;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+    }
+
+    /* NAVIGATION */
+    .navbar {
+      width: 100%;
+      max-width: 960px;
+      background: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(6px);
+      padding: 14px 24px;
+      border-radius: 16px;
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    }
+    .navbar a {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #333;
+      text-decoration: none;
+      transition: color 0.2s ease, transform 0.2s ease;
+    }
+    .navbar a:hover { color: #0056d6; transform: translateY(-2px); }
+
+    /* HERO */
+    .hero-banner {
+      width: 100%;
+      max-width: 960px;
+      background: rgba(0, 0, 0, 0.55);
+      color: white;
+      padding: 40px 30px;
+      border-radius: 16px;
+      text-align: center;
+      margin-bottom: 30px;
+      box-shadow: 0 18px 40px rgba(0, 0, 0, 0.25);
+    }
+    .hero-banner h1 { font-size: 2.4rem; margin-bottom: 10px; }
+    .hero-banner p { font-size: 1.1rem; opacity: 0.9; }
+
+    /* MAIN CONTENT */
+    .page-wrapper {
+      max-width: 960px;
+      width: 100%;
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 16px;
+      box-shadow: 0 18px 40px rgba(0, 0, 0, 0.18);
+      padding: 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 28px;
+      margin-bottom: 30px;
+    }
+
+    .section-title { font-size: 1.8rem; color: #222; }
+    .section-subtitle { font-size: 1rem; color: #777; letter-spacing: 0.1em; text-transform: uppercase; }
+
+    .service-card {
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 20px 22px;
+      border: 1px solid rgba(0, 0, 0, 0.05);
+      transition: transform 0.18s ease-out, box-shadow 0.18s ease-out;
+    }
+    .service-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 28px rgba(0, 0, 0, 0.16);
+    }
+    .service-card h3 { font-size: 1.3rem; margin-bottom: 10px; color: #222; }
+    .service-card p { font-size: 0.98rem; line-height: 1.6; white-space: pre-line; }
+
+    .divider {
+      height: 1px;
+      background: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.18), transparent);
+    }
+
+    /* CTA */
+    .cta-section {
+      width: 100%;
+      max-width: 960px;
+      background: rgba(255, 255, 255, 0.92);
+      padding: 28px;
+      border-radius: 16px;
+      text-align: center;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+    }
+    .cta-section h2 { font-size: 1.6rem; margin-bottom: 12px; }
+    .cta-section a {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #0056d6;
+      text-decoration: none;
+    }
+    .cta-section a:hover { text-decoration: underline; }
+
+  </style>
+</head>
+
+<body>
+
+  <!-- NAVIGATION -->
+  <div class="navbar">
+    <a href="about.html">About Me</a>
+    <a href="services.html">Services</a>
+    <a href="testimonials.html">Testimonials</a>
+  </div>
+
+  <!-- HERO -->
+  <div class="hero-banner">
+    <h1>Sales Training That Makes People Better</h1>
+    <p>Practical, real‑world development for teams who want to perform with confidence.</p>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <div class="page-wrapper">
+
+    <div>
+      <h2 class="section-title">How I Help Teams Perform Better</h2>
+      <div class="section-subtitle">Training • Coaching • Enablement</div>
+    </div>
+
+    <div class="service-card">
+      <h3>Sales Fundamentals & Core Skills Training</h3>
+      <p>
+I help new and developing salespeople build confidence and capability quickly.  
+Sessions cover prospecting, communication, questioning, objection handling, value messaging, and closing — all delivered through real‑world scenarios and practical exercises.
+      </p>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="service-card">
+      <h3>Advanced Sales Training for Experienced Professionals</h3>
+      <p>
+For senior sellers, I deliver deeper, more strategic modules including account planning, stakeholder management, negotiation, commercial thinking, and complex deal navigation.  
+These sessions sharpen thinking, improve structure, and elevate performance.
+      </p>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="service-card">
+      <h3>Sales Leadership & Manager Coaching</h3>
+      <p>
+I work with frontline managers to help them coach more effectively, run better 1:1s, drive accountability, and build high‑performing teams.  
+This is ideal for new managers or teams needing stronger leadership rhythm and clarity.
+      </p>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="service-card">
+      <h3>Sales Enablement & Behaviour Change Programmes</h3>
+      <p>
+I support organisations with messaging frameworks, customer journey mapping, CRM adoption, and embedding consistent sales behaviours.  
+This is where training meets strategy — ensuring teams not only learn, but change how they work.
+      </p>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="service-card">
+      <h3>Short‑Term Contract Training Support</h3>
+      <p>
+Perfect for organisations needing immediate capability uplift.  
+I step in quickly, diagnose what’s happening, and deliver targeted training that stabilises performance, builds momentum, and gets teams moving in the right direction.
+      </p>
+    </div>
+
+  </div>
+
+  <!-- CTA -->
+  <div class="cta-section">
+    <h2>Ready to Strengthen Your Sales Team?</h2>
+    <a href="mailto:mchristodoulou@outlook.com">mchristodoulou@outlook.com</a>
+  </div>
+
+</body>
+</html>

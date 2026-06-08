@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>About Marios Christodoulou</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+
+    body {
+      min-height: 100vh;
+      background: url('blurred-background.jpg') center center / cover no-repeat fixed;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+    }
+
+    /* NAVIGATION */
+    .navbar {
+      width: 100%;
+      max-width: 960px;
+      background: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(6px);
+      padding: 14px 24px;
+      border-radius: 16px;
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    }
+    .navbar a {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #333;
+      text-decoration: none;
+      transition: color 0.2s ease, transform 0.2s ease;
+    }
+    .navbar a:hover { color: #0056d6; transform: translateY(-2px); }
+
+    /* HERO */
+    .hero-banner {
+      width: 100%;
+      max-width: 960px;
+      background: rgba(0, 0, 0, 0.55);
+      color: white;
+      padding: 40px 30px;
+      border-radius: 16px;
+      text-align: center;
+      margin-bottom: 30px;
+      box-shadow: 0 18px 40px rgba(0, 0, 0, 0.25);
+    }
+    .hero-banner h1 { font-size: 2.4rem; margin-bottom: 10px; }
+    .hero-banner p { font-size: 1.1rem; opacity: 0.9; }
+
+    /* MAIN CONTENT */
+    .page-wrapper {
+      max-width: 960px;
+      width: 100%;
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 16px;
+      box-shadow: 0 18px 40px rgba(0, 0, 0, 0.18);
+      padding: 32px;
+      display: flex;
+      gap: 32px;
+      margin-bottom: 30px;
+    }
+
+    .photo-column {
+      flex: 0 0 220px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+    }
+    .photo-column img {
+      width: 100%;
+      border-radius: 16px;
+      object-fit: cover;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+    }
+    .photo-caption { font-size: 0.9rem; color: #555; text-align: center; }
+
+    .content-column { flex: 1; display: flex; flex-direction: column; gap: 24px; }
+    .heading-block h1 { font-size: 2rem; color: #222; }
+    .heading-block h2 { font-size: 1rem; color: #777; letter-spacing: 0.12em; }
+
+    .paragraph-card {
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 18px 20px;
+      border: 1px solid rgba(0, 0, 0, 0.04);
+      transition: transform 0.18s ease-out, box-shadow 0.18s ease-out;
+    }
+    .paragraph-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 28px rgba(0, 0, 0, 0.16);
+    }
+    .paragraph-card p { font-size: 0.98rem; line-height: 1.6; white-space: pre-line; }
+
+    .divider {
+      height: 1px;
+      background: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.18), transparent);
+    }
+
+    /* CTA */
+    .cta-section {
+      width: 100%;
+      max-width: 960px;
+      background: rgba(255, 255, 255, 0.92);
+      padding: 28px;
+      border-radius: 16px;
+      text-align: center;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+    }
+    .cta-section h2 { font-size: 1.6rem; margin-bottom: 12px; }
+    .cta-section a {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #0056d6;
+      text-decoration: none;
+    }
+    .cta-section a:hover { text-decoration: underline; }
+
+  </style>
+</head>
+
+<body>
+
+  <!-- NAVIGATION -->
+  <div class="navbar">
+    <a href="about.html">About Me</a>
+    <a href="services.html">Services</a>
+    <a href="testimonials.html">Testimonials</a>
+  </div>
+
+  <!-- HERO -->
+  <div class="hero-banner">
+    <h1>Sales Training That Makes People Better</h1>
+    <p>Practical, real‑world development for teams who want to perform with confidence.</p>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <div class="page-wrapper">
+
+    <div class="photo-column">
+      <img src="marios-photo.jpg" alt="Photo of Marios Christodoulou" />
+      <div class="photo-caption">Marios Christodoulou<br>Sales Trainer & Enablement Specialist</div>
+    </div>
+
+    <div class="content-column">
+      <div class="heading-block">
+        <h1>About Me</h1>
+        <h2>Sales Training • Enablement • Performance</h2>
+      </div>
+
+      <div class="paragraph-card">
+        <p>
+I’ve spent most of my working life helping people get better at selling — not by giving them theory, but by giving them clarity, confidence, and practical tools they can use the very next morning.
+I’m naturally direct, structured, energetic, and happiest when I’m helping people move forward. I love stepping into a team, figuring out what’s really going on beneath the surface, and creating training that actually changes behaviour — not just fills a room.
+        </p>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="paragraph-card">
+        <p>
+Over the years I’ve worked with everyone from apprentices taking their first steps in sales to senior professionals managing complex accounts. 
+At Pareto, I delivered high‑impact programmes across communication, negotiation, leadership behaviours, and advanced selling skills. 
+
+Before that, I led teams at Checkatrade, BT Group, Graydon, and Apple — roles that taught me how salespeople think, what motivates them, and what gets in their way.
+My approach is simple:
+
+Make it real. Make it useful. Make it stick.  
+I build training around real conversations, real objections, and real customer scenarios. I want people to walk out of a session thinking, “I can use that today.”
+I’m also big on creating an environment where people feel safe to try things, get things wrong, and grow. Sales can be tough, and confidence is half the battle — so I focus on building capability and belief.
+
+These days, I work with organisations on a short‑term or contract basis when they need someone who can hit the ground running. Whether it’s stabilising a team, upskilling managers, or injecting fresh energy into a sales function, I bring structure, pace, and a lot of practical experience.
+If you’re looking for a trainer who blends commercial sharpness with a down‑to‑earth coaching style, that’s where I do my best work.
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- CTA -->
+  <div class="cta-section">
+    <h2>Ready to Strengthen Your Sales Team?</h2>
+    <a href="mailto:mchristodoulou@outlook.com">mchristodoulou@outlook.com</a>
+  </div>
+
+</body>
+</html>
