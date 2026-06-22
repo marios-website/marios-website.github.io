@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Testimonials – Marios Christodoulou</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+
+    body {
+      min-height: 100vh;
+      background: url('blurred-background.jpg') center center / cover no-repeat fixed;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+    }
+
+    .navbar {
+      width: 100%;
+      max-width: 960px;
+      background: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(6px);
+      padding: 14px 24px;
+      border-radius: 16px;
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    }
+    .navbar a {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #333;
+      text-decoration: none;
+      transition: color 0.2s ease, transform 0.2s ease;
+    }
+    .navbar a:hover { color: #0056d6; transform: translateY(-2px); }
+
+    .hero-banner {
+      width: 100%;
+      max-width: 960px;
+      background: rgba(0, 0, 0, 0.55);
+      color: white;
+      padding: 40px 30px;
+      border-radius: 16px;
+      text-align: center;
+      margin-bottom: 30px;
+      box-shadow: 0 18px 40px rgba(0, 0, 0, 0.25);
+    }
+    .hero-banner h1 { font-size: 2.4rem; margin-bottom: 10px; }
+    .hero-banner p { font-size: 1.1rem; opacity: 0.9; }
+
+    .page-wrapper {
+      max-width: 960px;
+      width: 100%;
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 16px;
+      box-shadow: 0 18px 40px rgba(0, 0, 0, 0.18);
+      padding: 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 28px;
+      margin-bottom: 30px;
+    }
+
+    .section-title { font-size: 1.8rem; color: #222; }
+    .section-subtitle { font-size: 1rem; color: #777; letter-spacing: 0.1em; text-transform: uppercase; }
+
+    .testimonial-card {
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 20px 22px;
+      border: 1px solid rgba(0, 0, 0, 0.05);
+      transition: transform 0.18s ease-out, box-shadow 0.18s ease-out;
+    }
+    .testimonial-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 28px rgba(0, 0, 0, 0.16);
+    }
+    .testimonial-card p {
+      font-size: 0.98rem;
+      line-height: 1.6;
+      color: #333;
+      white-space: pre-line;
+    }
+    .testimonial-author {
+      margin-top: 12px;
+      font-weight: bold;
+      color: #222;
+    }
+
+    .divider {
+      height: 1px;
+      background: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.18), transparent);
+    }
+
+    .cta-section {
+      width: 100%;
+      max-width: 960px;
+      background: rgba(255, 255, 255, 0.92);
+      padding: 28px;
+      border-radius: 16px;
+      text-align: center;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+    }
+    .cta-section h2 { font-size: 1.6rem; margin-bottom: 12px; }
+    .cta-section a {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #0056d6;
+      text-decoration: none;
+    }
+    .cta-section a:hover { text-decoration: underline; }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="navbar">
+    <a href="about.html">About Me</a>
+    <a href="services.html">Services</a>
+    <a href="testimonials.html">Testimonials</a>
+  </div>
+
+  <div class="hero-banner">
+    <h1>Sales Training That Makes People Better</h1>
+    <p>Practical, real‑world development for teams who want to perform with confidence.</p>
+  </div>
+
+  <div class="page-wrapper">
+
+    <div>
+      <h2 class="section-title">What People Say</h2>
+      <div class="section-subtitle">Testimonials • Feedback • Endorsements</div>
+    </div>
+
+    <!-- ALL TESTIMONIALS BELOW -->
+
+    <div class="testimonial-card">
+      <p>Marios was an innovative and committed Sales Training Manager, always looking for ways to improve our sales training courses. He was a strong deliverer of training, getting the best out of new recruits and established representatives, with a clear focus on achieving results.</p>
+      <div class="testimonial-author">— Jackie Staunton, Executive Coach & HR Consultant</div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="testimonial-card">
+      <p>Marios was a hardworking and committed individual who brought creativity and innovation to every training session. He built excellent rapport with candidates and delivered impactful sales and soft skills training. A valuable addition to any organisation.</p>
+      <div class="testimonial-author">— Raj Unadkat, Financial Advisor</div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="testimonial-card">
+      <p>Marios is a real people leader — motivating, inspiring, and training to the highest standards. His management development programmes were engaging, informative, and always delivered with clarity and enthusiasm.</p>
+      <div class="testimonial-author">— Jo Copoc, Leadership Trainer & Business Coach</div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="testimonial-card">
+      <p>Marios is one of the most skilled sales professionals I’ve ever met. I’ve known him for over 20 years and watched him progress from Sales Executive to Regional Sales Manager. A pleasure to work with and for.</p>
+      <div class="testimonial-author">— Terry Moore, Senior Account Manager, Thomson Local</div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="testimonial-card">
+      <p>Marios has an amazing talent for engaging his team with positivity and focus. He works hard to achieve the best possible outcomes and is a strong communicator who’s a pleasure to work alongside.</p>
+      <div class="testimonial-author">— Alison Burke, ex Office Manager, Apple</div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="testimonial-card">
+      <p>Marios is a highly tuned sales professional who works effectively with people at all levels. Driven, adaptable, and always ready to go the extra mile, he brings energy and precision to every project.</p>
+      <div class="testimonial-author">— Tony Scully, Finance & Operations Director</div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="testimonial-card">
+      <p>Marios was a joy to work with — a skilled negotiator and diplomat who understands the sales process and drives results with professionalism and good humour. A thoroughly nice bloke into the bargain.</p>
+      <div class="testimonial-author">— Ian Appleby, Vice-Chair, PPG</div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="testimonial-card">
+      <p>Marios has exceptional knowledge of sales processes and reporting. His communication skills and ability to offer fresh perspectives make him a real asset to any team.</p>
+      <div class="testimonial-author">— Mark Lamonby, Sales Professional</div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="testimonial-card">
+      <p>Marios is an exceptional leader with a plethora of experience which he applies to get the job done daily. I employed Marios for his business acumen, integrity, leadership skills and sales training background. Marios is always professional, leads from the front and demands a non‑negotiable calibre of standards from his sales team which continually shines through to revenue and KPI targets each month. Marios just gets it — the best appointment I ever made.</p>
+      <div class="testimonial-author">— Alessandro Galea, Field Sales Manager (South)</div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="testimonial-card">
+      <p>I had the privilege of being Marios' line manager for over a year, and I was always struck by how someone with so much experience and wisdom had such curiosity and desire for self‑improvement. Marios' training performance was incredible, regularly receiving feedback of around 95% Excellent, while never being afraid to give learners the feedback they needed (not just what they wanted to hear).
+
+Marios did a brilliant job — once up to speed, in record time (!) — of challenging existing processes and assumptions within the team in a professional and constructive manner. This not only improved his own performance but also improved the performance of the team as a whole.
+
+He also managed projects for the team (such as the one for Practical Exercises), chaired team meetings, and was a regular contributor with new ideas and suggestions.
+
+I have no hesitation in recommending Marios as an excellent addition to any team he joins.</p>
+      <div class="testimonial-author">— Jonathan Beagles, Sales Ops Director & Head of Training</div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="testimonial-card">
+      <p>Marios is a fantastic trainer who brings energy, clarity and real‑world experience into every session. His ability to simplify complex ideas and make them practical for learners is second to none. He builds confidence, challenges people in the right way, and genuinely cares about their development. Any organisation would be lucky to have him.</p>
+      <div class="testimonial-author">— Latest Testimonial</div>
+    </div>
+
+  </div>
+
+  <div class="cta-section">
+    <h2>Ready to Strengthen Your Sales Team?</h2>
+    <a href="mailto:mchristodoulou@outlook.com">mchristodoulou@outlook.com</a>
+  </div>
+
+</body>
+</html>
